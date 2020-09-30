@@ -1,11 +1,6 @@
 def isEven(num:int) -> bool:
-    """Add the missing code here to make sure that this 
-    function returns true only for even numbers
-        >>> isEven(num=42)
-        True
-    """
-
-    return True
+    if (num%2)==0:
+        return True
 
 def isOdd(num:int) -> bool:
     """Add the missing code here to make sure that this 
